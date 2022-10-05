@@ -1,3 +1,4 @@
+#!/bin/bash
 
 echo -e "\033[32mMise a jour de debian apres l'installation :\E[0m"
 echo -e "\033[34msudo apt update && sudo apt upgrade -y\E[0m"
