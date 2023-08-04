@@ -64,13 +64,13 @@ echo ""
 echo -e "\033[32mTelechargement de GLPI :\E[0m"
 echo -e "\033[34mcd /tmp\E[0m"
 	cd /tmp
-echo -e "\033[34mwget https://github.com/glpi-project/glpi/releases/download/10.0.3/glpi-10.0.3.tgz\E[0m"
-	wget https://github.com/glpi-project/glpi/releases/download/10.0.3/glpi-10.0.3.tgz
+echo -e "\033[34mwget https://github.com/glpi-project/glpi/releases/download/10.0.6/glpi-10.0.6.tgz\E[0m"
+	wget https://github.com/glpi-project/glpi/releases/download/10.0.6/glpi-10.0.6.tgz
 
 echo ""
 echo -e "\033[32mDecompression de l'archive de GLPI dans le dossier WEB:\E[0m"
-echo -e "\033[34msudo tar -xvzf glpi-10.0.3.tgz -C /var/www/html\E[0m"
-	sudo tar -xvzf glpi-10.0.3.tgz -C /var/www/html > /dev/null 2>&1
+echo -e "\033[34msudo tar -xvzf glpi-10.0.6.tgz -C /var/www/html\E[0m"
+	sudo tar -xvzf glpi-10.0.6.tgz -C /var/www/html > /dev/null 2>&1
 
 echo ""
 echo -e "\033[32mAjout des droits de Apache2 sur le dossier GLPI\E[0m"
